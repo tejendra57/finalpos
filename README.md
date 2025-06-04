@@ -53,7 +53,7 @@ src \
 ├── utils/                # Helper functions (mock ETA, coordinate formatters, etc.) \
 ├── App.tsx \
 ├── main.tsx \
-└── index.css \
+└── index.css
 
 ---
 
@@ -76,6 +76,6 @@ npm run dev
 
 Mock WebSocket
 
-For simulation, use a mock WebSocket server (\`ws://localhost:3000\`) that emits driver updates every few seconds.
+For simulation, use a mock WebSocket server (http://localhost:3000) that emits driver updates every few seconds.
 
 ---
