@@ -21,7 +21,6 @@ export function startMockWebSocket() {
       const updatedDriver: Driver = {
         ...driver,
         ...updatedLocation,
-        status: statuses[Math.floor(Math.random() * statuses.length)],
       };
       store.dispatch(updateDriver(updatedDriver));
     });
