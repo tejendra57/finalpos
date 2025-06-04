@@ -42,20 +42,18 @@ Tech Stack
 
 Folder Structure
 
-\`\`\`
-src/
-│
-├── components/           # Reusable UI components (DriverCard, MapView, etc.)
-├── features/             # Redux slices (drivers, deliveries, ui)
-│   ├── drivers/
-│   ├── deleveries/
-├── pages/                # Main layout pages (Dashboard, Map, etc.)
-├── services/             # WebSocket and API handlers
-├── utils/                # Helper functions (mock ETA, coordinate formatters, etc.)
-├── App.tsx
-├── main.tsx
+src \
+│ \
+├── components/           # Reusable UI components (DriverCard, MapView, etc.) \
+├── features/             # Redux slices (drivers, deliveries, ui) \
+│   ├── drivers/ \
+│   ├── deleveries/ \
+├── pages/                # Main layout pages (Dashboard, Map, etc.) \
+├── services/             # WebSocket and API handlers \
+├── utils/                # Helper functions (mock ETA, coordinate formatters, etc.) \
+├── App.tsx \
+├── main.tsx \
 └── index.css
-\`\`\`
 
 ---
 
@@ -63,27 +61,21 @@ Getting Started
 
 1. Clone the repository
 
-\`\`\`bash
-git clone https://github.com/your-username/finalpos.git
+git clone https://github.com/your-username/finalpos.git \
 cd finalpos
-\`\`\`
 
 2. Install dependencies
 
-\`\`\`bash
 npm install
-\`\`\`
 
 3. Run the development server
 
-\`\`\`bash
 npm run dev
-\`\`\`
 
 ---
 
 Mock WebSocket
 
-For simulation, use a mock WebSocket server (\`ws://localhost:3000\`) that emits driver updates every few seconds.
+For simulation, use a mock WebSocket server (http://localhost:3000) that emits driver updates every few seconds.
 
 ---
